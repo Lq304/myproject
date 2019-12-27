@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>账号注册 | 淘宝网</title>
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/merchants.css">
     <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <body>
@@ -423,10 +423,6 @@
                     <span class="tsl">填写账号信息</span>
                 </li>
                 <li>
-                    <i>3</i>
-                    <span class="tsl">设置支付方式</span>
-                </li>
-                <li>
                     <i class="fa fa-check"></i>
                     <span class="tsl">注册成功</span>
                 </li>
@@ -441,20 +437,9 @@
                 <div class="form-list form-main-list">
                     <div class="form-group">
                         <div class="form-item">
-                            <span class="form-label tsl">手机号</span>
+                            <span class="form-label tsl">电子邮箱</span>
                             <div class="mobile-text">
-                                <div id="ks-component77" class="tb-select tb-menu-button tb-button">
-                                    <div id="ks-content-ks-component77" class="tb-select-content tb-select-content tb-menu-button-content tb-button-content">
-                                        <span class="text">中国大陆</span>
-                                        <span class="code">+86</span>
-                                    </div>
-                                    <div class="tb-select-dropdown tb-select-dropdown tb-menu-button-dropdown tb-button-dropdown"> 
-                                        <div class="tb-select-dropdown-inner tb-select-dropdown-inner tb-menu-button-dropdown-inner tb-button-dropdown-inner">
-                                            <i class="fa fa-angle-down"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input type="text" id="J_Mobile" class="form-text mobile-input" placeholder="请输入你的手机号码">
+                                <input type="text" id="J_Mobile" class="form-text mobile-input" placeholder="请输入邮箱">
                             </div>
                         </div>
                         <div class="form-item">
@@ -475,56 +460,30 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <div class="form-item clearfix">
+                            <input type="checkbox"  id="J_Agreement" class="form-checkbox">
+                            <div class="agreement-content">
+                                <p class="tsl" data-phase-id="r_p_agreementTip">
+                                    同意
+                                    <a href="">淘宝品平服务协议</a>、
+                                    <a href="">隐私权政策</a>
+                                    和
+                                    <a href="">法律声明</a>
+                                    及愿意接受来自taobao.com的会员及服务邮件
+                                </p>
+                            </div>
+                        </div>
                         <div class="form-item form-item-short">
                             <button id="J_BtnMobileForm" class="btn btn-large tsl btn-disabled">下一步</button>
                         </div>
                         <div class="form-item f12 tsl">
-                            <a href="">切换成企业账户</a>
+                            没有邮箱？先去注册邮箱
+                            <br>
+                            <a href="">个人用户可以使用手机号注册></a>
                         </div>
                     </div>
                 </div>
             </form>
-        </div>
-    </div>
-    <div class="ks-dialog hide" id='J_AgreementDialog'>
-        <div class="ks-dialog-content">
-            <a target="_top" href="http://www.taobao.com/" class="ks-overlay-close" role="button">
-                <span class="iconfont ks-dialog-close-x ks-overlay-close-x">×</span>
-            </a>
-            <div class='ks-dialog-header'>
-                <h3>注册协议</h3>
-            </div>
-            <div class='ks-dialog-body'>
-                <p><strong>【审慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。<strong
-                        style='text-decoration: underline'>请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong></p>
-                <p>1、<strong style='text-decoration: underline'>与您约定免除或限制责任的条款；</strong></p>
-
-                <p>2、<strong style='text-decoration: underline'>与您约定法律适用和管辖的条款；</strong></p>
-
-                <p>3、<strong style='text-decoration: underline'>其他以粗体下划线标识的重要条款。</strong></p>
-
-                <p>如您对协议有任何疑问，可向平台客服咨询。</p>
-
-                <p><strong>【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。
-                </p>
-
-                <p><strong style='text-decoration: underline'>阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong></p>
-                
-                <p><a href='http://terms.alicdn.com/legal-agreement/terms/TD/TD201609301342_19559.html'
-                        target='_blank'>淘宝平台服务协议</a></p>
-
-                <p><a href='http://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html'
-                        target='_blank'>隐私权政策</a></p>
-
-                <p><a href='https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201811121436_80276.html'
-                        target='_blank'>法律声明</a></p>
-
-                <p><a href='https://render.alipay.com/p/f/fd-jm7jym6r/alipay/multi-agreement.html'
-                        target='_blank'>支付宝及客户端服务协议</a></p>
-                <p style='text-align: center'>
-                    <button class='btn btn-large' type='button' id='J_AgreementBtn'>同意协议</button>
-                </p>
-            </div>
         </div>
     </div>
     <div class="footer">
@@ -599,10 +558,6 @@
 </html>
 <script src="js/jquery-1.10.1.min.js"></script>
 <script>
-// 关闭注册协议
-$("#J_AgreementBtn").on("click",function (){
-    $("#J_AgreementDialog").css("display","none");
-});
 // 我的淘宝
 $(".J_MenuMyTaobao").on("mouseover",function(){
     $(".J_MenuMyTaobao").next().css("display","block");
@@ -639,6 +594,16 @@ $("#J_SiteMap").on("mouseout",function(){
     $("#J_SiteMap").children(".menu-bd").css("display","none");
 })
 
+// 单选框选中事件
+$(function (){
+    $("#J_Agreement").on("click",function(){
+        if($("#J_Agreement").is(":checked")){
+            $("#J_BtnMobileForm").css({"background":"#f73500","color":"#fff"});
+        }else{
+            $("#J_BtnMobileForm").css({"background":"#ededed","color":"#999"});
+        }
+    })
+})
 
 
 
@@ -670,7 +635,7 @@ $("#nc_1_n1z").on('mousedown',function(){
         if(newL == distance){
             $("#nc_1__bg").css("background","#7ac23c").html("验证通过");
             $(".fa-angle-double-right").removeClass().addClass("fa fa-check-circle");
-            $("#J_BtnMobileForm").css({"background":"#f73500","color":"#fff"});
+            // $("#J_BtnMobileForm").css({"background":"#f73500","color":"#fff"});
         }
     })
     // 清除鼠标的按下和移动事件

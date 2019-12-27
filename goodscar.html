@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>淘宝网-我的购物车</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- <link rel="stylesheet" href="css/goods.css"> -->
+    <link rel="stylesheet" href="css/goodscar.css">
+</head>
+<body>
+    <div id="page" class="cl">
+        <div id="J_SiteNav" class="site-nav site-nav-status-login">
+            <div id="J_SiteNavBd" class="site-nav-bd">
+                <ul id="J_SiteNavBdL" class="site-nav-bd-l">
+                    <li id="J_SiteNavLogin" class="site-nav-menu site-nav-login site-nav-multi-menu J_MultiMenu">
+                        <div class="site-nav-menu-hd">
+                            <div class="site-nav-sign">
+                                <a href="" class="h">亲，请登录</a>
+                                <a href="">免费注册</a>
+                            </div>
+                            <div class="site-nav-user">
+                                <a href="" class="site-nav-login-info-nick ">Rose</a>
+                                <a href="" class="site-nav-vip-icon  "></a>
+                                <span class="site-nav-arrow">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="site-nav-menu-bd" id="J_SiteNavLoginPanel">
+                            <div class="site-nav-menu-bd-panel">
+                                <div class="site-nav-user-wrapper ">
+                                    <a href="" id="J_UserAvatar" class="site-nav-user-avatar">
+                                        <img src="http://wwc.alicdn.com/avatar/getAvatar.do?userNick=梦中情境&_input_charset=UTF-8&width=80&height=80&type=sns"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="site-nav-user-info">
+                                    <p class="site-nav-user-operate">
+                                        <a href="">账号管理</a>
+                                        <span class="site-nav-pipe">|</span>
+                                        <a href="">退出</a>
+                                    </p>
+                                    <p class="level-info tao-score">淘气值</p>
+                                    <p class="level-info ">普通会员</p>
+                                </div>
+                                <a href="" class="site-nav-user-privilege">查看你的专属权益</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="J_Tmsg" class="site-nav-tmsg tmsg site-nav-multi-menu J_MultiMenu">
+                        <div class="J_Menu site-nav-menu">
+                            <div class="site-nav-menu-hd J_Tmsg_Basic tmsg_basic">
+                                <span class="J_Tmsg_Logo tmsg_logo_area tmsg_logo_active">
+                                    <span class="J_Tmsg_Logo_Loading tmsg_logo_loading"></span>
+                                    <span class="J_Tmsg_Logo_Icon tmsg_logo_icon site-nav-icon">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </span>
+                                    <span class="J_Tmsg_Logo_Text tmsg_logo_text">消息</span>
+                                    <span class="J_Tmsg_Logo_Unread tmsg_logo_unread">1</span>
+                                </span>
+                                <span class="site-nav-arrow">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                            </div>
+                            <!-- <div class="site-nav-menu-bd">
+                                <div class="J_Tmsg_Panel_Apps tmsg_panel_apps">
+                                    <div class="J_Tmsg_Panel_Head tmsg_panel_head">
+                                        <h2 class="J_Tmsg_Panel_Title tmsg_panel_title">未读新消息</h2>
+                                        <a href="" class="J_Tmsg_Button_ReadAll tmsg_button_read-all">全部设为已读</a>
+                                    </div>
+                                    <div class="J_Tmsg_Panel_AppsBody tmsg_panel_body">
+                                        <div class="J_Tmsg_App tmsg_app ">
+                                            <h3 class="tmsg_app_title">
+                                                <em class="tmsg_app_title_app-name">你购买的宝贝</em>
+                                                <span class="tmsg_app_title_new-info">有
+                                                    <span>1</span>个物流变化
+                                                </span>
+                                            </h3>
+                                            <ul class="tmsg_app_list tmsg_app_list_single">
+                                                <li class="tmsg_details_item">
+                                                    <a href=""></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- <div class="J_Tmsg_Panels tmsg_panels">
+
+                        </div> -->
+                    </li>
+                    <li id="J_SiteNavMobile" class="site-nav-menu site-nav-mobile">
+                        <div class="site-nav-menu-hd">
+                            <a href="">
+                                <span>手机逛淘宝</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li id="J_SiteNavWeekend" class="site-nav-menu site-nav-weekend site-nav-multi-menu J_MultiMenu">
+                    </li>
+                </ul>
+                <ul class="site-nav-bd-r" id="J_SiteNavBdR" data-spm-ab="2">
+                    <li class="site-nav-menu site-nav-home" id="J_SiteNavHome" data-name="home" data-spm="1581860521">
+                        <div class="site-nav-menu-hd">
+                            <a href="//www.taobao.com/" target="_top">
+                                <span>淘宝网首页</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="site-nav-menu site-nav-mytaobao site-nav-multi-menu J_MultiMenu" id="J_SiteNavMytaobao"
+                        data-name="mytaobao" data-spm="1997525045">
+                        <div class="site-nav-menu-hd">
+                            <a href="//i.taobao.com/my_taobao.htm" target="_top">
+                                <span>我的淘宝</span>
+                            </a>
+                            <span class="site-nav-arrow"><span class="site-nav-icon"><i class="fa fa-angle-down"></i></span></span>
+                        </div>
+                        <div class="site-nav-menu-bd site-nav-menu-list">
+                            <div class="site-nav-menu-bd-panel menu-bd-panel">
+                                <a href="//trade.taobao.com/trade/itemlist/list_bought_items.htm"
+                                    target="_top">已买到的宝贝</a>
+                                    <a href="//www.taobao.com/markets/footmark/tbfoot" target="_top">我的足迹</a>
+                                </div>
+                        </div>
+                    </li>
+                    <li class="site-nav-menu site-nav-cart site-nav-menu-empty site-nav-multi-menu J_MultiMenu"
+                        id="J_MiniCart" data-name="cart" data-spm="1997525049">
+                        <div class="site-nav-menu-hd">
+                            <a href="//cart.taobao.com/cart.htm?from=mini&ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739"
+                                target="_top">
+                                <span class="site-nav-icon site-nav-icon-highlight">
+                                    <i class="fa fa-cart-plus"></i>
+                                </span>
+                                <span>购物车</span>
+                                <strong class="h" id="J_MiniCartNum">1</strong>
+                            </a>
+                            <span class="site-nav-arrow"><span class="site-nav-icon"><i class="fa fa-angle-down"></i></span></span>
+                        </div>
+                        <div class="site-nav-menu-bd">
+                            <div class="site-nav-menu-bd-panel menu-bd-panel">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="site-nav-menu site-nav-favor site-nav-multi-menu J_MultiMenu" id="J_SiteNavFavor"
+                        data-name="favor" data-spm="1997525053">
+                        <div class="site-nav-menu-hd">
+                            <a href="//shoucang.taobao.com/item_collect.htm" target="_top">
+                                <span class="site-nav-icon"><i class="fa fa-star"></i></span>
+                                <span>收藏夹</span>
+                            </a>
+                            <span class="site-nav-arrow"><span class="site-nav-icon"><i class="fa fa-angle-down"></i></span></span>
+                        </div>
+                        <div class="site-nav-menu-bd site-nav-menu-list">
+                            <div class="site-nav-menu-bd-panel menu-bd-panel">
+                                <a href="//shoucang.taobao.com/item_collect.htm" target="_top">收藏的宝贝</a>
+                                <a href="//shoucang.taobao.com/shop_collect_list.htm" target="_top">收藏的店铺</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="site-nav-menu site-nav-catalog" id="J_SiteNavCatalog" data-name="catalog"
+                        data-spm="1997563209">
+                        <div class="site-nav-menu-hd">
+                            <a href="//www.taobao.com/tbhome/page/market-list" target="_top">
+                                <span>商品分类</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="site-nav-pipe">|</li>
+                    <li class="site-nav-menu site-nav-seller site-nav-multi-menu J_MultiMenu" id="J_SiteNavSeller"
+                        data-name="seller" data-spm="1997525073">
+                        <div class="site-nav-menu-hd">
+                            <a href="//mai.taobao.com/seller_admin.htm" target="_top">
+                                <span>千牛卖家中心</span>
+                            </a>
+                            <span class="site-nav-arrow"><span class="site-nav-icon"><i class="fa fa-angle-down"></i></span></span>
+                        </div>
+                        <div class="site-nav-menu-bd site-nav-menu-list">
+                            <div class="site-nav-menu-bd-panel menu-bd-panel">
+                                <a href="//mai.taobao.com/seller_admin.htm" target="_top">免费开店</a>
+                                <a href="//trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_top">已卖出的宝贝</a>
+                                <a href="//sell.taobao.com/auction/goods/goods_on_sale.htm" target="_top">出售中的宝贝</a>
+                                <a href="//fuwu.taobao.com/?tracelog=tbdd" target="_top">卖家服务市场</a>
+                                <a href="//daxue.taobao.com/" target="_top">卖家培训中心</a>
+                                <a href="//healthcenter.taobao.com/home/health_home.htm" target="_top">体检中心</a>
+                                <a href="//infob.taobao.com/help" target="_top">问商友</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="site-nav-menu site-nav-service site-nav-multi-menu J_MultiMenu" id="J_SiteNavService"
+                        data-name="service" data-spm="754895749">
+                        <div class="site-nav-menu-hd">
+                            <a href="https://consumerservice.taobao.com" target="_top">
+                                <span>联系客服</span>
+                            </a>
+                            <span class="site-nav-arrow"><span class="site-nav-icon"><i class="fa fa-angle-down"></i></span></span>
+                        </div>
+                        <div class="site-nav-menu-bd site-nav-menu-list">
+                            <div class="site-nav-menu-bd-panel menu-bd-panel">
+                                <a href="https://consumerservice.taobao.com/online-help" target="_top">消费者客服</a>
+                                <a href="//helpcenter.taobao.com/index?from=high" target="_top">卖家客服</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="site-nav-menu site-nav-sitemap site-nav-multi-menu J_MultiMenu" id="J_SiteNavSitemap"
+                        data-name="sitemap" data-spm="1997525077">
+                        <div class="site-nav-menu-hd">
+                            <a href="https://www.taobao.com/tbhome/page/sitemap" target="_top">
+                                <span class="site-nav-icon site-nav-icon-highlight"><i class="fa fa-navicon"></i></span>
+                                <span>网站导航</span>
+                            </a>
+                            <span class="site-nav-arrow"><span class="site-nav-icon"><i class="fa fa-angle-down"></i></span></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div id="J_Header" class="header tb-header">
+                <h1 id="logo" class="cart-logo">
+                    <a href="//www.taobao.com/" title="淘宝网 Taobao.com - 阿里巴巴旗下网站" target="_top">
+                        <img src="img/loginlogo.png" alt="">
+                        <span>购物车</span>
+                    </a>
+                </h1>
+                <div class="search" id="J_Search" role="search">
+                    <div class="search-triggers">
+                        <ul class="ks-switchable-nav" id="J_SearchTab">
+                            <li data-searchtype="item"  data-defaultpage="nogo" class="J_SearchTab selected">
+                                <a href="" data-spm-anchor-id="1.1000386.0.34">宝贝</a>
+                            </li>
+                            <li class="J_SearchTab" data-searchtype="mall" data-action="//list.tmall.com/search_product.htm">
+                                <a href="" data-spm-anchor-id="1.1000386.0.35">天猫</a>
+                            </li>
+                            <li class="J_SearchTab" data-searchtype="shop" data-action="//s.taobao.com/search?app=shopsearch">
+                                <a href="">店铺</a>
+                            </li>
+                        </ul>
+                        <s>
+                            <s></s>
+                        </s>
+                    </div>
+                    <div class="search-panel search-hp-panel ks-switchable-content">
+                        <form target="_top" action="//s.taobao.com/search" name="search" id="J_TSearchForm" class="search-panel-focused">
+                            <div class="search-button">
+                                <button class="btn-search" type="submit">搜 索</button>
+                            </div>
+                            <div id="ks-component221" class="search-combobox">
+                                <div class="search-combobox-input-wrap">
+                                    <input type="text" id="q" class="search-combobox-input">
+                                </div>
+                            </div>
+                            <input type="hidden" name="spm" value="1.1000386.5803581.d4908513">
+                            <!--[if lt IE 9]><s class="search-fix search-fix-panellt"></s><s class="search-fix search-fix-panellb"></s>
+                            <![endif]-->
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="J_Cart" class="cart">
+                <div id="J_FilterBar" class="cart-filter-bar">
+                    <ul id="J_CartSwitch" class="switch-cart">
+                        <li class="btn-switch-cart switch-cart-0 current">
+                            <a href="" class="J_MakePoint">
+                                <em>全部商品</em>
+                                <span class="number">1</span>
+                                <span class="pipe"></span>
+                            </a>
+                        </li>
+                        <li class="btn-switch-cart switch-cart-2 disabled">
+                            <a href="" class="J_MakePoint">
+                                <em>降价商品</em>
+                                <span class="number">0</span>
+                                <span class="pipe"></span>
+                            </a>
+                        </li>
+                        <li class="btn-switch-cart switch-cart-4 disabled">
+                            <a href="" class="J_MakePoint">
+                                <em>库存紧张</em>
+                                <span class="number">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="cart-sum">
+                        <span class="pay-text">已选商品（不含运费）</span>
+                        <strong class="price">
+                            <em class="J_SmallTotal">
+                                <span class="total-symbol"></span>0.00
+                            </em>
+                        </strong>
+                        <a href="" id="J_SmallSubmit" class="submit-btn submit-btn-disabled">结算</a>
+                    </div>
+                    <div class="wrap-line">
+                        <div class="floater"></div>
+                    </div>
+                </div>
+                <div id="J_CartMain" class="cart-main">
+                    <div class="cart-table-th">
+                        <div class="wp">
+                            <div class="th th-chk">
+                                <div id="J_SelectAll1" class="select-all J_SelectAll">
+                                    <div class="cart-checkbox">
+                                        <input type="checkbox" id="J_SelectAllCbx1" class="J_CheckBoxShop">
+                                        <!-- <label for="J_SelectAllCbx1">勾选购物车内所有商品</label> -->
+                                    </div>
+                                    全选
+                                </div>
+                            </div>
+                            <div class="th th-item">
+                                <div class="td-inner">商品信息</div>
+                            </div>
+                            <div class="th th-info">
+                                <div class="td-inner"></div>
+                            </div>
+                            <div class="th th-price">
+                                <div class="td-inner">单价</div>
+                            </div>
+                            <div class="th th-amount">
+                                <div class="td-inner">数量</div>
+                            </div>
+                            <div class="th th-sum">
+                                <div class="td-inner">金额</div>
+                            </div>
+                            <div class="th th-op">
+                                <div class="td-inner">操作</div>
+                            </div>
+                            <div class="th th-vil hidden">
+                                <div class="td-inner">购买客户信息</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="J_OrderList">
+                        <div id="J_OrderHolder_s_2655595188_1">
+                            <div id="J_Order_s_2655595188_1">
+                                <div class="J_ItemHead shop clearfix">
+                                    <div class="shop-info">
+                                        <div class="cart-checkbox">
+                                            <input type="checkbox" id="J_CheckShop_s_2655595188_1" class="J_CheckBoxShop">
+                                            <label for="J_CheckShop_s_2655595188_1">勾选此店铺下所有商品</label>
+                                        </div>店铺：
+                                        <a href="" class="J_MakePoint">台湾地道肠供应链</a>
+                                        <span class="ww-light ww-small">
+                                            <a href="https://amos.alicdn.com/getcid.aw?v=3&groupid=0&s=1&charset=utf-8&uid=%E4%B8%AD%E7%B2%AE%E5%9C%B0%E4%BA%A7603601&site=cntaobao&fromid=cntaobao梦中情境" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。">
+                                                <span>旺旺在线</span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="order-content">
+                                    <div id="J_BundleList_s_2655595188_1" class="item-list">
+                                        <div id="J_Bundle_s_2655595188_1_0" class="bundle  bundle-last ">
+                                            <div id="J_ItemHolder_1637361098034" class="item-holder">
+                                                <div id="J_Item_1637361098034" class="J_ItemBody item-body clearfix item-normal first-item last-item">
+                                                    <ul class="item-content clearfix">
+                                                        <li class="td td-item">
+                                                            <div class="td-inner">
+                                                                <div class="cart-checkbox">
+                                                                    <input type="checkbox" id="J_CheckBox_1637361098034" class="J_CheckBoxItem">
+                                                                    <label for="J_CheckBox_1637361098034">勾选商品</label>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="td td-info">
+                                                            <div class="td-inner">
+                                                                <div class="item-pic J_ItemPic img-loaded">
+                                                                    <a href="" class="J_MakePoint J_GoldReport">
+                                                                        <img src="https://img.alicdn.com/bao/uploaded/i2/2655595188/O1CN01UTJ7cm1oC9Lk6u9A2_!!2655595188.jpg_80x80.jpg" class="itempic J_ItemImg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="item-info">
+                                                                    <div class="item-basic-info">
+                                                                        <a href="" class="item-title J_GoldReport J_MakePoint">京鲁远洋饭团加热即食三角饭团紫菜饭团寿司饭团日式料理
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="item-other-info">
+                                                                        <div class="promo-logos"></div>
+                                                                        <div class="item-icon-list clearfix">
+                                                                            <div class="item-icons J_ItemIcons  item-icons-fixed ">
+                                                                                <span class="item-icon item-icon-0">
+                                                                                    <img src="img/card.png" alt="">
+                                                                                </span>
+                                                                                <a href="" class="item-icon item-icon-1 J_MakePoint">
+                                                                                    <img src="img/i3.png" alt="">
+                                                                                </a>
+                                                                                <a href="" class="item-icon item-icon-2 J_MakePoint">
+                                                                                    <img src="https://img.alicdn.com/tfs/TB1.w6wSpXXXXayXFXXXXXXXXXX-16-16.png" alt="">
+                                                                                </a>
+                                                                                <a href="" class="item-icon item-icon-3 J_MakePoint">
+                                                                                    <img src="img/i4.png" alt="">
+                                                                                </a>
+                                                                                <a href="" class="item-icon item-icon-4 J_MakePoint">
+                                                                                    <img src="img/7.png" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="item-tips"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="td td-info">
+                                                            <div class="item-props "></div>
+                                                        </li>
+                                                        <li class="td td-price">
+                                                            <div class="td-inner">
+                                                                <div class="item-price price-promo-">
+                                                                    <div class="price-content">
+                                                                        <div class="price-line">
+                                                                            <em class="J_Price price-now">￥59.80</em>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="td td-amount">
+                                                            <div class="td-inner">
+                                                                <div class="amount-wrapper ">
+                                                                    <div class="item-amount ">
+                                                                        <a href="" class="J_Minus no-minus">-</a>
+                                                                        <input type="text" class="text text-amount J_ItemAmount" value="1" autocomplete="off">
+                                                                        <a href="" class="J_Plus plus">+</a>
+                                                                    </div>
+                                                                    <div class="amount-msg J_AmountMsg"></div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="td td-sum">
+                                                            <div class="td-inner">
+                                                                <em class="J_ItemSum number">￥59.80</em>
+                                                                <div class="J_ItemLottery"></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="td td-op">
+                                                            <div class="td-inner">
+                                                                <a href="" class="btn-fav J_Fav J_MakePoint">移入收藏夹</a>
+                                                                <a href="" class="J_Del J_MakePoint">删除</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-bar-holder" id="J_FloatBarHolder">
+                    <div id="J_FloatBar" class="float-bar clearfix default">
+                        <div id="J_SelectedItems" class="group-wrapper group-popup hidden">
+                            <div id="J_SelectedItemsList" class="group-content"></div>
+                            <span class="arrow"></span>
+                        </div>
+                        <div class="float-bar-wrapper">
+                            <div id="J_SelectAll2" class="select-all J_SelectAll">
+                                <div class="cart-checkbox">
+                                    <input type="checkbox" id="J_SelectAllCbx2" class="J_CheckBoxShop">
+                                </div>
+                                全选
+                            </div>
+                            <div class="operations">
+                                <a href="" class="J_DeleteSelected">删除</a>
+                                <a href="" class="J_ClearInvalid hidden">清楚失效宝贝</a>
+                                <a href="" class="J_BatchFav">移入收藏夹</a>
+                                <a href="" class="J_BatchShare">分享</a>
+                            </div>
+                            <div class="float-bar-right">
+                                <div id="J_ShowSelectedItems" class="amount-sum">
+                                    <span class="txt">已选商品</span>
+                                    <em id="J_SelectedItemsCount">0</em>
+                                    <span class="txt">件</span>
+                                    <div class="arrow-box">
+                                        <span class="selected-items-arrow"></span>
+                                        <span class="arrow"></span>
+                                    </div>
+                                </div>
+                                <div id="J_CheckCOD" class="check-cod">
+                                    <span class="icon-cod"></span>
+                                    <span class="s-checkbox J_CheckCOD"></span>
+                                    货到付款
+                                </div>
+                                <div class="pipe"></div>
+                                <div class="price-sum">
+                                    <span class="txt">合计（不含运费）：</span>
+                                    <strong class="price">
+                                        <em id="J_Total">
+                                            <span class="total-symbol"></span>0.00
+                                        </em>
+                                    </strong>
+                                </div>
+                                <div class="btn-area">
+                                    <a href="" id="J_Go" class="submit-btn submit-btn-disabled">
+                                        <span>结算</span>
+                                        <b></b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="interested">
+                <div id="J_Auctions" class="con">
+                    <ul class="tabs">
+                        <li class=""></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-hd">
+            <p>
+                <a href="http://page.1688.com/shtml/about/ali_group1.shtml">阿里巴巴集团</a>
+                <b>|</b>
+                <a href="http://www.alibaba.com">阿里巴巴国际站</a>
+                <b>|</b>
+                <a href="http://www.1688.com">阿里巴巴中国站</a>
+                <b>|</b>
+                <a href="http://www.aliexpress.com">全球速卖通</a>
+                <b>|</b>
+                <a href="http://www.taobao.com">淘宝网</a>
+                <b>|</b>
+                <a href="http://www.tmall.com">天猫</a>
+                <b>|</b>
+                <a href="http://ju.taobao.com">聚划算</a>
+                <b>|</b>
+                <a href="http://www.etao.com">一淘</a>
+                <b>|</b>
+                <a href="http://www.alimama.com">阿里妈妈</a>
+                <b>|</b>
+                <a href="https://www.fliggy.com">飞猪</a>
+                <b>|</b>
+                <a href="http://www.xiami.com">虾米</a>
+                <b>|</b>
+                <a href="http://www.aliyun.com">阿里云计算</a>
+                <b>|</b>
+                <a href="http://www.yunos.com">云OS</a>
+                <b>|</b>
+                <a href="http://www.net.cn">万网</a>
+                <b>|</b>
+                <a href="http://www.alipay.com">支付宝</a>
+            </p>
+        </div>
+        <div class="footer-bd">
+            <p>
+                <a href="http://www.taobao.com/about">关于淘宝</a>
+                <a href="http://www.taobao.com/about/partners.php">合作伙伴</a>
+                <a href="http://pro.taobao.com">营销中心</a>
+                <a href="mailto:lianzheng@taobao.com" title="lianzheng@taobao.com" target="_self">廉正举报</a>
+                <a href="http://service.taobao.com/support/main/service_route.htm">联系客服</a>
+                <a href="http://open.taobao.com">开放平台</a>
+                <a href="http://www.taobao.com/about/join.php">诚征英才</a>
+                <a
+                    href="https://consumerservice.taobao.com/contact-us?spm=a21bo.50862.1997523009.35.5dcec6f7zikHQ3">联系我们</a>
+                <a href="http://www.taobao.com/sitemap.php">网站地图</a>
+                <a
+                    href="http://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201811121436_80276.html">法律声明</a>
+                <a
+                    href="http://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html">隐私权政策</a>
+                <em>&copy; 2019 Taobao.com 版权所有</em>
+            </p>
+            <p>
+                <span>网络文化经营许可证：浙网文[2016]0132-032号</span>
+                <b>|</b>
+                <span>增值电信业务经营许可证：浙B2-20080224-1</span>
+                <b>|</b>
+                <span>信息网络传播视听节目许可证：1109364号</span>
+            </p>
+        </div>
+        <div class="footer-ft">
+            <a href="http://idinfo.zjaic.gov.cn/bscx.do?method=hddoc&id=33018400000067" class="mod mod-a"></a>
+            <a href="http://idinfo.zjaic.gov.cn/bscx.do?&method=hddoc&id=33018400000067" class="mod mod-b"></a>
+            <a href="http://www.theclimategroup.org.cn/about/friend" class="mod mod-c"></a>
+            <a href="https://ss.cnnic.cn/verifyseal.dll?&sn=2010062300100001357&pa=20100701" class="mod mod-d"></a>
+            <a href="http://www.ppaaol.com/verifySite.do?id=1051" class="mod mod-e"></a>
+        </div>
+    </div>
+</body>
+</html>

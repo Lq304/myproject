@@ -1,0 +1,1039 @@
+body{
+    scroll-behavior: auto;
+    height: 20px;
+}
+#wrapper{
+    width: 100%;
+    height: 30px;
+    padding-left: 50px;
+    line-height: 30px;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    cursor: pointer;
+}
+#wrapper .mobile a{
+    color: #666666;
+}
+#wrapper .mobile a:hover{
+    color: red;
+}
+.mobile{
+    color: #666666;
+    margin: 0 auto;
+    border-right: 1px #e4e4e4 solid;
+    padding-right: 10px;
+}
+#login-info a{
+    color: #666666;
+    margin-left: 10px;
+}
+#login-info a:hover{
+    color: red;
+}
+#menu-left{
+    float: right;
+    padding-right: 40px;
+}
+#menu-left li{
+    float: left;
+    font-size: 12px;
+    margin: 0 9px;
+}
+#menu-left a{
+    color: #666666;
+}
+#menu-left a:hover{
+    color: red;
+}
+#menu-left .options{
+    display: none;
+}
+#ju-naver{
+    height: 80px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.logo img{
+    width: 150px;
+    height: 118px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: -1;
+    cursor: pointer;
+}
+.navmenu{
+    float: right;
+    padding-top: 28px;
+    padding-right: 40px;
+}
+.navmenu li{
+    display: inline-block;
+    font-size: 16px;
+}
+.navmenu a{
+    padding: 0 10px;
+    height: 26px;
+    border-radius: 3px;
+    line-height: 26px;
+    display: inline-block;
+}
+.navmenu li:nth-child(1) a{
+    background-color: #e61414;
+    color: #fff;
+}
+.navmenu a:hover{
+    background-color: #EDEDED;
+}
+.mod-banner{
+    background-color: #f38e24;
+    height: 435px;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    cursor: pointer;
+}
+.mod-banner .left{
+    float: left;
+    width: 150px;
+    height: 435px;
+    padding: 30px 0 8px;
+    position: relative;
+    left: 50px;
+    z-index: 300;
+    background-color: #f3f0f6;
+}
+.mod-banner table{
+    background-color: #f3f0f6;
+    width: 100%;
+    height: 400px;
+    border-collapse: collapse;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: 900;
+    margin: 0 auto;
+}
+.mod-banner td{
+    width: 52px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.mod-banner .line{
+    height: 0;
+    line-height: 0;
+    margin: 2 0;
+    border-top: 1px dashed #ddd;
+}
+.mod-banner .forecast a{
+    display: inline-block;
+    color: #26a96d;
+    font-size: 12px;
+    background-clip: padding-box;
+    height: 20px;
+    font-size: 13px;
+}
+.mod-banner .forecast a:hover{
+    background-color: #26a96d;
+    color: white;
+}
+.mod-banner td a{
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+.mod-banner td a:hover{
+    background-color: red;
+    color: white;
+}
+.mod-banner .ensurance a{
+    color: #666;
+}
+.mod-banner .ensurance i{
+    color: #666;
+}
+.mod-banner .ensurance a:hover{
+    background-color: #f3f0f6;
+    color: #666;
+}
+.middle .chnls-stage .banner-pictures{
+    display: none; 
+    opacity: 0; 
+    position: absolute;
+    left: 200px;
+    z-index: 30;
+    border: 4px solid #cc57fe;
+}
+.middle .chnls-stage .banner-pictures img{
+    width: 785px;
+    height: 305px;
+    background: url(//gtms01.alicdn.com/tps/i1/TB1eHBsGFXXXXa7XFXXoYWL.FXX-130-35.png) center center no-repeat;
+}
+.middle .chnls-stage li:nth-child(1){
+    display: block;
+    opacity: 1;
+}
+.middle .chnls-stick{
+    position: absolute;
+    top: 275px;
+    left: 820px;
+    z-index: 90;
+}
+.middle .chnls-stick li{
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: rgba(0,0,0,.6);
+    border-radius: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    font-size: 15px/26px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.main-theme{
+    height: 125px;
+    width: 793px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    border: 4px solid #cc57fe;
+    border-bottom: none;
+    background-color: #fff;
+}
+.main-theme img{
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    width: 261.5px;
+    height: 120px;
+    border: 0;
+}
+.main-theme a{
+    height: 100%;
+    float: left;
+    transition: "width" .3s ease;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.right a img{
+    width: 245px;
+    height: 430px;
+    position: absolute;
+    left: 993px;
+    top: 4px;
+    background: url(//gtms01.alicdn.com/tps/i1/TB1eHBsGFXXXXa7XFXXoYWL.FXX-130-35.png) center center no-repeat;
+}
+.ju-wrapper{
+    width: 1190px;
+    position: relative;
+    top: 490px;
+    left: 15px;
+    margin: 0 auto;
+}
+#mod-brand{
+    margin-bottom: 30px;
+    padding-bottom: 0;
+}
+.hd h2{
+    font-size: 18px;
+    color: #334051;
+    font-weight: 700;
+    float: left;
+    text-decoration: none;
+}
+#mod-brand .hd h3{
+    width: 155px;
+    height: 22px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 22px;
+    margin-top: 3px;
+    margin-left: 60px;
+    padding: 0 10px;
+    background: rgba(0,0,0,.7);
+    border-radius: 2px;
+    background-clip: padding-box;
+    position: relative;
+    font-weight: normal;
+}
+#mod-brand .hd h3::after{
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: 8px;
+    width: 0;
+    height: 0;
+    border-width: 3px 4px 3px 0;
+    border-style: solid;
+    border-color: transparent rgba(0,0,0,.7) transparent transparent;
+}
+.today-brands{
+    float: right;
+    width: 650px;
+    height: 20px;
+    text-align: right;
+    overflow: hidden;
+    position: absolute;
+    right: 100px;
+    top: 7px;
+}
+.today-brands a{
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+    vertical-align: middle;
+}
+.today-brands a:hover{
+    color: #e61414;
+}
+.more{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    font-size: 12px;
+}
+.more a{
+    color: #fff;
+    background: #e61414;
+    display: block;
+    line-height: 20px;
+    padding:  0 10px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.brandlist .brand-mid-v2{
+    box-shadow: none;
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 394px;
+    height: 180px;
+}
+.brandlist li{
+    float: left;
+    position: relative;
+}
+.brand-mid-v2 .brand-status{
+    background: url(//gtms01.alicdn.com/tps/i1/TB1eHBsGFXXXXa7XFXXoYWL.FXX-130-35.png) center no-repeat #fff;
+}
+.brand-mid-v2 .brand-status .hdpic img{
+    width: 389px;
+    height: 180px;
+}
+.hdpic .info{
+    padding-right: 10px;
+    text-align: right;
+    font-size: 12px;
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    background-color: #f5f5f5;
+}
+.sc em{
+    color: #e61414;
+}
+.info .lt{
+    color: #e61414;
+    margin-left: 6px;
+}
+.brand-status{
+    border: 2px solid white;
+}
+.brandlist .brand-status:hover{
+    border: 2px solid #e61414;
+}
+.brand-mid-v2 a .mingpin{
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: #9a49b7;
+    color: #fff;
+}
+.logowall{
+    padding: 0 3px;
+    width: 1188px;
+    height: 223px;
+    position: relative;
+    top: 25px;
+}
+.logowall .logowall-linner{
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    max-height: 213px;
+    overflow: hidden;
+}
+.logowall .logopic{
+    width: 90px;
+    height: 70px;
+    float: left;
+    padding: 19px 13px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.logowall .logopic img{
+    width: 64px;
+    height: 32px;
+}
+.logowall .logopic .mask{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: 100%;
+    cursor: pointer;
+}
+.logowall .logopic .mask .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    widows: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .8;
+}
+.logowall .logopic .mask .txt{
+    padding: 6px 5px 0;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.logowall .logopic .mask .tt{
+    margin-top: 8px;
+    height: 20px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+}
+.logowall .logopic .mask .tt span{
+    color: white;
+}
+.logowall .logopic .mask .icon i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+.logowall .logo .mask .txt .coupon{
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mod-list{
+    min-height: 300px;
+    background-color: #f2f2f2;
+    /* position: relative;
+    top: 500px; */
+}
+.fixnav{
+    width: 100%;
+    height: 86px;
+}
+.fixnav .catbg{
+    background-color: fff;
+    border-color: #ccc;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.ju-wrapper{
+    width: 1190px;
+    position: relative;
+    margin: auto;
+}
+.ju-wrapper::before{
+    content: "";
+    display: table;
+}
+.cat-menu-h{
+    padding: 8px 0;
+    background-color: #fff;
+}
+.cat-menu-h::before{
+    content: "";
+    display: table;
+}
+.cat-menu-h .h2{
+    float: left;
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.cat-menu-h .h2 a{
+    color: #334051;
+}
+.cat-menu-h ul{
+    font-size: 14px;
+    border-left: 1px solid #dcdcdc;
+    padding-left: 10px;
+    margin-left: 70px;
+}
+.cat-menu-h ul::before{
+    content: "";
+    display: table;
+}
+.cat-menu-h  ul li{
+    float: left;
+}
+.cat-menu-h ul li a{
+    padding: 2px 10px;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: #666;
+    white-space: nowrap;
+}
+.cat-menu-h ul li a:hover{
+    background-color: red;
+    color: white;
+}
+.cat-menu-h li a.forecast{
+    color: #26a96d;
+    display: block;
+}
+.cat-menu-h li a.forecast:hover{
+    background-color: #26a96d;
+    color: white;
+}
+.cat-menu-h ul::after{
+    content: "";
+    display: table;
+}
+.cat-menu-h ul li::after{
+    content: "";
+    display: table;
+}
+.cat-menu-h::after{
+    content: "";
+    display: table;
+}
+.mod-list .filterbg{
+    background-color: rgba(250,250,250,.95);
+    border-color: #ccc;
+    border-bottom: 2px solid rgba(0,0,0,.06);
+    background-clip: content-box;
+}
+.mod-list .hd{
+    border-color: #ccc;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.mod-list .hd h3.updateTime{
+    color: #e61411;
+    font-size: 14px;
+    margin: 6px 0 4px;
+    height: 23px;
+    font-weight: lighter;
+}
+.mod-list .hd .updateTime i{
+    font-size: 12px;
+    color: #e61411;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.mod-filter{
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    font-size: 12px;
+}
+.mod-filter .sort{
+    float: left;
+    margin: 0 5px;
+}
+.mod-filter .sort li{
+    float: left;
+    padding: 4px 10px 0;
+}
+.mod-filter .sort li a{
+    cursor: pointer;
+}
+.mod-filter .sort li:nth-child(1) span{
+    color: #e61414;
+}
+.mod-filter .sort li a i{
+    display: inline-block;
+    vertical-align: middle;
+    height: 18px;
+    line-height: 18px;
+    color: #666;
+}
+.border{
+    width: 1px;
+    height: 17px;
+    background: #dcdcdc;
+    margin: 6px 6px 0;
+    float: left;
+}
+.mod-filter .filter{
+    float: left;
+    margin: 0 5px;
+}
+.mod-filter .filter li{
+    float: left;
+    padding: 4px 10px 0;
+}
+.mod-filter .filter li a{
+    color: #666;
+    display: block;
+}
+.mod-filter li span:hover{
+    color: red;
+}
+.mod-filter li i:hover{
+    color: red;
+}
+.search{
+    float: left;
+    position: relative;
+}
+.search input{
+    width: 180px;
+    height: 29px;
+    line-height: 20px;
+    border: 1px solid #dcdcdc;
+    padding: 4px 5px 3px;
+    color: #666;
+    background: #fafafa;
+}
+.search input:focus{
+    border-color: red;
+    color: #dcdcdc;
+}
+.search button{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    padding-right: 23px;
+    border: 0;
+    background: 0 none;
+    font-size: 18px;
+    color: #999;
+    width: 25px;
+    display: block;
+    cursor: pointer;
+    height: 27px;
+}
+.pagination{
+    float: left;
+}
+.mod-filter .pagination .pg-prev{
+    height: 29px;
+    line-height: 29px;
+    background: #ccc;
+    padding: 0 12px;
+    float: left;
+}
+.mod-filter .pagination .fa{
+    color: white;
+}
+.pagination .pg-next{
+    background-color: #e61414;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 12px;
+    margin-left: 1px;
+    margin-right: 10px;
+    float: left;
+}
+.pagination .pg-next .text{
+    color: white;
+}
+.pagination .sum{
+    height: 29px;
+    background-color: #e61414;
+    display: block;
+    width: 40px;
+    height: 29px;
+    position: absolute;
+    text-align: center;
+    line-height: 29px;
+    padding-left: 5px;
+    right: -20px;
+    color: #fff;
+    cursor: pointer;
+}
+.sum em{
+    color: white;
+}
+.ju-itemlist{
+    position: relative;
+}
+#juList{
+    height: 3394px;
+    position: relative;
+    top: -225px;
+    margin-right: -20px;
+}
+#juList li.item-small-v3{
+    width: 290px !important;
+    height: 400px !important;
+    margin: 11px 10px 11px 0;
+    position: relative;
+    float: left;
+}
+#juList li.item-small-v3 a.link-box{
+    width: 292px;
+    height: 398px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid #dcdcdc;
+    float: left;
+    margin-left: 2px;
+}
+#juList li.item-small-v3 div.status-avil{
+    width: 294px;
+    height: 398px;
+}
+#juList li.item-small-v3 a:hover{
+    border: 2px solid red;
+}
+#juList li.item-small-v3 a.link-box img.item-pic{
+    width: 287px;
+    margin-bottom: 10px;
+    display: block;
+}
+#juList li.item-small-v3 a.link-box h4{
+    margin: 0 0 2px 10px;
+}
+li.item-small-v3 h4 .desc{
+    display: block;
+    color: #333;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    overflow: hidden;
+    height: 20px;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    font-weight: normal;
+}
+li.item-small-v3 h3.nowrap{
+    height: 20px;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    font-weight: normal;
+}
+li.item-small-v3 .price-point{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #e61414;
+    white-space: nowrap;
+    word-break: keep-all;
+    line-height: 16px;
+    margin-right: 5px;
+}
+li.item-small-v3 .price-point i{
+    float: left;
+    margin-right: 5px;
+    font-style: normal;
+    margin: 1px 1px 0 -1px;
+}
+li.item-small-v3 .item-prices{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #e61414;
+}
+li.item-small-v3 .item-prices .item-info{
+    height: 50px;
+    margin-left: -40px;
+    overflow: hidden;
+    padding: 0 50px 0 50px;
+}
+li.item-small-v3 .item-info .price{
+    margin-right: 18px;
+    font-size: 0;
+    color: #fff;
+    float: left;
+}
+li.item-small-v3 .item-prices .item-info .price i{
+    margin-right: 3px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+li.item-small-v3 .price em{
+    display: inline-block;
+    line-height: 50px;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    font-family: Helvetica Neue,Helvetica,Arial;
+}
+li.item-small-v3 .price .yen{
+    font-size: 40px;
+    line-height: 50px;
+    display: inline-block;
+    color: #fff;
+}
+li.item-small-v3 .price .cent{
+    font-size: 22px;
+    display: inline-block;
+    color: #fff;
+}
+li.item-small-v3 .dock{
+    overflow: hidden;
+    margin: 4px;
+}
+li.item-small-v3 .dock .dock-price{
+    height: 18px;
+    margin-bottom: 3px;
+    overflow: hidden;
+}
+li.item-small-v3 .orig-price{
+    position: static;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-size: 12px;
+}
+li.item-small-v3 .benefit{
+    padding: 0 6px;
+    border-radius: 10px;
+    background-clip: padding-box;
+    height: 17px;
+    line-height: 17px;
+    background: #ffb369;
+    display: inline-block;
+    margin-right: 2px;
+    color: #fff;
+}
+li.item-small-v3 .promot{
+    height: 20px;
+    overflow: hidden;
+}
+li.item-small-v3 .promot .sold-num{
+    filter: none;
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 6px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 3px;
+    background-clip: padding-box;
+    color: #fff;
+    font-size: 12px;
+}
+li.item-small-v3 .promot .sold-num em{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 17px;   
+}
+li.item-small-v3 .item-prices .item-link{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 46px;
+    height: 100%;
+    padding-left: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #e61414;
+    background: url(http://gtms03.alicdn.com/tps/i3/TB1CUPpHVXXXXbMXXXXdTOh_FXX-112-50.png) no-repeat;
+}
+li.brand-small-v2{
+    width: 290px !important;
+    height: 400px !important;
+    margin: 11px 10px 11px 0;
+    float: left;
+}
+li.brand-small-v2 a.link-box{
+    height: 398px;
+    display: block;
+    background: #fff;
+    border: 2px solid #d3d3d3;
+    border-color: rgba(0,0,0,.15);
+    cursor: pointer;
+    font-size: 0;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+#juList li.brand-small-v2 a:hover{
+    border: 2px solid red;
+}
+li.brand-small-v2 .link-box .brand-pic{
+    width: 290px;
+    height: 290px;
+    display: block;
+    widows: 100%;
+    height: auto;
+    background: url(http://gtms01.alicdn.com/tps/i1/TB1eHBsGFXXXXa7XFXXoYWL.FXX-130-35.png) center center no-repeat;
+}
+li.brand-small-v2 .statis{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 26px;
+    background: #f5f5f5;
+    font-size: 12px;
+}
+li.brand-small-v2 .statis .sold-num{
+    float: right;
+    line-height: 26px;
+    color: #333;
+    margin-right: 8px;
+}
+li.brand-small-v2 .statis em{
+    color: #e61414;
+    font-weight: 700;
+    line-height: 17px;
+    font-style: normal;
+}
+.footer{
+    padding: 50px 0 30px;
+    border-top: 3px solid #D8DBE5;
+    background: #F2F3F7;
+    position: relative;
+    top: 350px;
+}
+.footer .issue{
+    /* overflow: hidden; */
+    position: relative;
+    top: 20px;
+}
+.footer .issue .logo{
+    float: left;
+    width: 185px;
+}
+.footer .device{
+    float: right;
+    width: 150px;
+}
+.footer .issue dt{
+    position: relative;
+    margin-bottom: 12px;
+    padding: 5px 0 10px;
+    font-size: 14px;
+    color: #666;
+    margin-left: 35px;
+}
+.footer .issue dt::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    height: 1px;
+    background: #E1E1E1;
+}
+.footer .device dt{
+    color: #989898;
+}
+.footer .devive dt::after{
+    width: 150px;
+    max-width: 100%;
+}
+.footer .device dd{
+    line-height: 28px;
+    margin-bottom: 14px;
+    background-color: #DCDEE6;
+}
+.footer a{
+    display: block;
+    color: #7C7C7C;
+}
+.footer .issue .links{
+    overflow: hidden;
+}
+.footer .issue .links dl{
+    width: 20%;
+    float: left;
+}
+.footer .issue dd{
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+.footer .ali-link{
+    padding-top: 15px;
+    margin-top: 40px;
+    border-top: solid 1px #E6E7EB;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+}
+.footer .ali-link .logo-text{
+    float: left;
+    margin-right: 24px;
+    height: 20px;
+}
+.footer .ali-link .logo-text img.text-logo{
+    float: left;
+    position: relative;
+
+}
+.footer .ali-link .links{
+    margin-top: 5px;
+    line-height: 24px;
+    color: #999;
+}
+.footer .ali-link .box{
+    overflow: hidden;
+    margin-top: 5px;
+    line-height: 24px;
+    color: #999;
+}
+.footer .ali-link .links a{
+    float: left;
+    padding: 0 20px 0 10px;
+    margin-left: -10px;
+    border-left: solid 1px #999;
+    margin-bottom: 15px;
+    height: 12px;
+    line-height: 12px;
+    white-space: nowrap;
+    color: #999;
+}
+.footer .device dd .txt{
+    display: block;
+    height: 28px;
+    width: 122px;
+    padding-left: 34px;
+    background-color: #fff;
+    color: #666;
+    font-size: 14px;
+}
+.footer .issue i{
+    float: left;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #666;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+/*
+Error: Invalid GBK character "\xE5"
+        on line 177 of ./goods.scss
+
+172: }
+173: .site-nav .site-nav-menu .site-nav-menu-hd a span{
+174:     float: left;
+175:     cursor: pointer;
+176: }
+177: // 右导航
+178: .site-nav .site-nav-bd .site-nav-bd-r{
+179:     float: right;
+180: }
+181: .site-nav .site-nav-menu{
+182:     float: left;
+
+Backtrace:
+./goods.scss:177
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/util.rb:1325:in `rescue in block in find_encoding_error'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/util.rb:1322:in `block in find_encoding_error'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/util.rb:1321:in `each'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/util.rb:1321:in `each_with_index'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/util.rb:1321:in `find_encoding_error'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/util.rb:930:in `check_sass_encoding'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:436:in `check_encoding!'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:392:in `_to_tree'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:294:in `watch'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/plugin.rb:109:in `method_missing'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:51:in `process_result'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+E:/ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+E:/ruby/Ruby21-x64/bin/sass:23:in `load'
+E:/ruby/Ruby21-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE5\"\A         on line 177 of ./goods.scss\A \A 172: }\A 173: .site-nav .site-nav-menu .site-nav-menu-hd a span{\A 174:     float: left;\A 175:     cursor: pointer;\A 176: }\A 177: // 右导航\A 178: .site-nav .site-nav-bd .site-nav-bd-r{\A 179:     float: right;\A 180: }\A 181: .site-nav .site-nav-menu{\A 182:     float: left;"; }
